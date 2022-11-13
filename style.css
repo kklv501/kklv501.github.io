@@ -4,3 +4,54 @@
     font-family: Comic Sans MS;
     font-weight: bold;
 }
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #121212;
+}
+::-webkit-scrollbar-corner {
+    background: #000;
+}
+::-webkit-scrollbar-thumb {
+    background: #292929;
+    border-radius: 1ex;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 75%);
+}
+
+a {
+    text-decoration: none;
+    transition: .5s;
+    color: white;
+}
+a:hover {
+    color: white; 
+    text-shadow: 0px 0px 15px aqua;
+}
+#wrapper {
+    width: 50vw; 
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px #3a3a3a solid;
+    border-radius: 20px;
+    background-color: #0a0a0a;
+    height: 96vh;
+}
+
+header { padding-bottom: 5px; padding-top: 5px; text-align: center;  }
+header span { 
+    font-size: 30px; margin: auto; 
+    background-image: linear-gradient(orange, red);
+    color: transparent;
+    -webkit-background-clip: text; 
+}
+
+main { padding: 10px; }
+
+#pgraph { padding: 10px; border: 1px #3a3a3a solid; border-radius: 20px; background-color:rgb(31, 31, 31)}
+#description span { display: block; }
+#pname { font-size: 20px; } #pdesc { color: rgb(148, 148, 148); }
+
+#showcase { width: 100%; transition: 1s;}
+#showcase:hover { box-shadow: 0px 0px 10px rgba(66, 179, 179, 0.486);  }
